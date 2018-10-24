@@ -33,7 +33,7 @@ import time
 import numpy as np
 import logging
 import glob
-from tabulate import tabulate # only for the presentation
+# from tabulate import tabulate # only for the presentation
 
 from carla.driving_benchmark.experiment_suites import CoRL2017
 from carla.driving_benchmark.metrics import Metrics
