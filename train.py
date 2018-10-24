@@ -530,7 +530,6 @@ with sessGraph.as_default():
             print("  Epoch:", epoch)
             # p = progressbar.ProgressBar(0,(num_images / batchSize))
             for j in range(int(num_images / batchSize)): # num_images = 657800, batchSize = 120, 657800/120 = 5481.66..
-                
                 steps += 1
                 cur_branch = np.random.choice(branch_indices)
                 xs, ys = next(genBranch(fileNames=datasetFilesTrain,
